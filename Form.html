@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action = " ">
+        <label for= "unname">Enter Name</label>
+        <input  type = "text"  name = "unname" size = "40" maxlength="20" placeholder="Enter Your first Name" value = "AB" required>
+        <br><br>
+        <label for ="pass">Enter Passsword:</label>
+        <input type = "Password" name = "pass1" id = "pass" required>
+        <br><br>
+
+        <label for="email">Enter Email:</label>
+        <input type = "email" name = "email1" id="email1" required >
+    </form>
+
+    <br><br>
+    <input type="submit" name = "submitform" id = "Submit Form" value= "Submit Form">
+    <br><br>
+    
+    <label for="Review">Write a Review:</label>
+    <textarea name="Review" id = "Review" rows ="10" cols = "50">Movie is good</textarea>
+    
+    <br><br>
+
+    <label for="hobby">Choose your hobby</label>
+    <input type="checkbox" id = "hobby" name = "hobby" value="sing">singing
+    <input type="checkbox" id = "hobby" name = "hobby" value = "dance" >Dancing
+    <input type="checkbox" id = "hobby" name = "hobby" value = "Badmash" checked>Badmashi
+
+    <br><br>
+    <label for="pro" >Select your program:</label>
+    
+    <input type="radio" id = "btech" name = "pro" value = "btech">
+    <label for="btech">B.tech</label>
+    <input type="radio" id = "BCA" name = "pro" value = "bca">
+    <label for="BCA">BCA</label>
+    <input type="radio" id = "BBA" name = "pro" value = "bba">
+    <label for="BBA">BBA</label>
+    <input type="radio" id = "BPT" name = "pro" value = "bpt">
+    <label for="BPT">BPT</label>
+
+    <br><br>
+
+    <label for="state">Select your state</label>
+    <select name="State" id="State" size = "3" multiple>
+    <option value="statesel">Choose your state</option>
+    <option value="Pb">Punjab</option>
+    <option value="HR">HARYANA</option>
+    <option value="up">Uttar pradesh</option>
+    <option value="hp">Himachal</option>
+</select>
+
+<br><br>
+
+<label for="filesel">Choose file:</label>
+<input type="file" name = "filesel" id="filesel">
+
+<br><br>
+<input type="submit" name="submitform" id="submitform" value="Submit Form">
+<input type="reset" name="resetform" id="resetform" value="Submit Form">
+<input type="image" name="imagbtn" src="submit.jpg" width="100">
+</body>
+</html>
